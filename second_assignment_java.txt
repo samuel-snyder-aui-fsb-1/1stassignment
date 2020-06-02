@@ -1,0 +1,26 @@
+JS For the following problems, please breakdown and give precise instructions as to how would you go about telling a computer to solve the problem, give as much details as possible
+1. Find the square of a given number
+
+directions: 
+recive Imput value for number.
+multiply the imput value of the number by itself to get square.
+
+2. Look at the time of the day and tell whether it's time for breakfast, lunch or dinner
+
+directions: look at time.
+if time is 7am say breakfast.
+if time is noon, say lunch.
+if time is 5pm say dinner.
+
+3. Given a number, find whether the number is odd or even
+
+directions: take imput number and divide by 2.
+if remainder is zero, then number is even.
+if remainder is any other number than 2, it is NOT even.
+
+4. Find out whether a given number or a string is palindrome(something that looks the same reading straight or in reverse)
+take number 101 and see if can written the same way back wards.
+5. Find the 10th number of a fibonacci series(research about this)
+directions: 
+add eigth fibonacci number 21 with nineth fibonacci number 34.
+
