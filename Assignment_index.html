@@ -1,127 +1,175 @@
-<div>
+<html>
 
-<div>
-<p>subscribe</p> 
-<h3>large</h3>
-<input type="text">
-<button>Search</button>
-<p>World</p> 
-<p>U.S.</p>
-<p>Technology</p>
-<p>Design</p>
-<p>Culture</p>
-<p>Buisness</p>
-<p>Politics</p>
-<p>Opinion</p>
-<p>Science</p>
-<p>Health</p>
-<p>Style</p>
-<p>Travel</p>
-</div>
+<head>
+    <title>My website</title>
+    <link rel="stylesheet" href="Assignment_index.css">
+</head>
 
-<div>
-<p>Title of a longer featured blog post</p>
-<p>Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.</p> 
-LINK 
-</div>
+<body>
+    <div class="container">
+        <div class="top-navbar">
+            <p class="nav-item left">Subscribe</p>
+            <h1 class="nav-item center-top-nav">Large</h1>
+            <img class="nav-item right-icon" src="search.png" alt="search icon">
+            <button class="nav-item btn">Sign up</button>
+        </div>
+        <hr>
+        <div class="navbar">
+            <p class="nav-item margin-right font-light">World</p>
+            <p class="nav-item margin-left-right font-light">Us</p>
+            <p class="nav-item margin-left-right font-light">Technology</p>
+            <p class="nav-item margin-left-right font-light">Design</p>
+            <p class="nav-item margin-left-right font-light">Culture</p>
+            <p class="nav-item margin-left-right font-light">Business</p>
+            <p class="nav-item margin-left-right font-light">Politics</p>
+            <p class="nav-item margin-left-right font-light">opinion</p>
+            <p class="nav-item margin-left-right font-light">Science</p>
+            <p class="nav-item margin-left-right font-light">Health</p>
+            <p class="nav-item margin-left-right font-light">Style</p>
+            <p class="nav-item margin-left font-light">Travel</p>
+        </div>
+        <div class="header">
+            <h1 id="header-title" class="header-left">Title of a longer featured blog post</h1>
+            <p id="header-description" class="header-left">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's
+                most interesting in this post's contents.</p>
+            <p class="header-left">Continue Reading...</p>
+        </div>
+        <div class="card-container">
+            <div class="cards">
+                <div class="card-inner">
+                    <p class="card-content font-blue">World</p>
+                    <h2 class="card-content">Featured Post</h2>
+                    <p class="card-content">Nov 12</p>
+                    <p class="card-content">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-content font-blue">Continue reading</p>
+                </div>
+                <div class="card-inner">
+                    <img class="card-img" src="download.svg" alt="thumbnail">
+                </div>
+            </div>
+            <div class="cards margin-card-left">
+                <div class="card-inner">
+                    <p class="card-content font-green">Design</p>
+                    <h2 class="card-content">Post Title</h2>
+                    <p class="card-content">Nov 11</p>
+                    <p class="card-content">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-content font-blue">Continue reading</p>
+                </div>
+                <div class="card-inner">
+                    <img class="card-img" src="download.svg" alt="thumbnail">
+                </div>
+            </div>
+        </div>
+        <div class="article-1">
+            <div class="article-1-inner-1">
+                <h2 class="article-title">From the Firehose</h2>
+                <hr>
+                <h1 class="article-blog">Sample blog post</h1>
+                <p class="blog-meta">January 1, 2014 by Mark</p>
+                <p>This blog post shows a few different types of content that's supported and styled with Bootstrap.
+                    Basic typography, images, and code are all supported.</p>
+                <hr>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo
+                    quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at
+                    lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+                <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id
+                    dolor id nibh ultricies vehicula ut id elit.</p>
+                <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum.
+                    Aenean lacinia bibendum nulla sed consectetur.</p>
+                <h2 class="article-heading">Heading</h2>
+                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo
+                    luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac
+                    consectetur ac, vestibulum at eros.</p>
+                <h3 class="article-subheading">Sub-heading</h3>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>Example code block</p>
+                <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce
+                    dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+                <h3 class="article-subheading">Sub-heading</h3>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia
+                    bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus,
+                    tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                </p>
+                <ul>
+                    <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+                    <li>Donec id elit non mi porta gravida at eget metus.</li>
+                    <li>Nulla vitae elit libero, a pharetra augue.</li>
+                </ul>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+                <ol>
+                    <li>Vestibulum id ligula porta felis euismod semper.</li>
+                    <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+                    <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+                </ol>
+                <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+            </div>
+            <div class="article-1-inner-2">
+                <div>
+                    <h1 class="article-title">About</h1>
+                    <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum.
+                        Aenean lacinia bibendum nulla sed consectetur.</p>
+                </div>
+                <div>
+                    <h1 class="article-title">Archives</h1>
+                    <p class="font-blue">March 2014</p>
+                    <p class="font-blue">February 2014</p>
+                    <p class="font-blue">January 2014</p>
+                    <p class="font-blue">December 2013</p>
+                    <p class="font-blue">Nov</p>
+                    <p class="font-blue">Oct</p>
+                    <p class="font-blue">Sep</p>
+                    <p class="font-blue">Aug</p>
+                    <p class="font-blue">July</p>
+                    <p class="font-blue">June</p>
+                    <p class="font-blue">May</p>
+                    <p class="font-blue">April</p>
+                </div>
+                <div>
+                    <h1 class="article-title">ElseWhere</h1>
+                    <p class="font-blue">Github</p>
+                    <p class="font-blue">Twitter</p>
+                    <p class="font-blue">Facebook</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1 class="article-blog">Another blog post</h1>
+            <p class="blog-meta">December 23, 2013 by Jacob</p>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam.
+                Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras
+                mattis consectetur purus sit amet fermentum.</p>
+            <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor
+                id nibh ultricies vehicula ut id elit.</p>
+            <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean
+                lacinia bibendum nulla sed consectetur.</p>
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo
+                luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac
+                consectetur ac, vestibulum at eros.</p>
+        </div>
+        <div>
+            <h1 class="article-blog">New feature</h1>
+            <p class="blog-meta">December 14, 2013 by Chris</p>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia
+                bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac
+                cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <ul>
+                <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+                <li>Donec id elit non mi porta gravida at eget metus.</li>
+                <li>Nulla vitae elit libero, a pharetra augue.</li>
+            </ul>
+            <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean
+                lacinia bibendum nulla sed consectetur.</p>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+        </div>
+        <div>
+            <button class="btn-oval">Older</button>
+            <button class="btn-oval">Newer</button>
+        </div>
+        <div class="footer">
+            <p>Blog template built for Bootstrap by @mdo.</p>
+            <p>Back to top</p>
+        </div>
+    </div>
+</body>
 
-<div>
-<p>World</p> 
-<h3>Featured post</h3> 
-<p>Nov 12</p>
-<p>This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-
-LINK
-</div> 
-
-<div>
-<p>Design</p> 
-<h3>Post title</h3>
-<p>Nov 11</p>
-<p>This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-
-LINK
-</div>
-
-<div>
-<h4>From the Firehose</h4>
-<h2>Sample blog post</2>
-<p>January 1, 2014 by Mark</p>
-<p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p> 
-<p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-</div>
-
-<div>
-<h4>About</h4> 
-<p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-</div> 
-
-<div>
-<h4>Archives</h4>
-LINK 
-LINK 
-LINK 
-LINK 
-LINK 
-LINK 
-LINK 
-LINK 
-LINK 
-LINK 
-LINK 
-LINK 
-<h4>Elsewhere</h4> 
-LINK 
-LINK 
-LINK 
-</div> 
-
-<div>
-<h3>Heading</h3>
-<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-</div>
-
-<div>
-<h3>Sub-heading</h3> 
-<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-<p>Example code block</p>
-<p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p> 
-</div>
-
-<div>
-<h3>Sub-heading</h3> 
-<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p> 
-<li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-<li>Donec id elit non mi porta gravida at eget metus.</li>
-<li>Nulla vitae elit libero, a pharetra augue.</li> 
-<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-<li>Vestibulum id ligula porta felis euismod semper.</li>
-<li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-<li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-</div>
-
-<div>
-<h2>Another blog post</h2> 
-<p>December 23, 2013 by Jacob</p> 
-<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p> 
-<p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-</div>
-
-<div>
-<h2>New feature</h2> 
-<p>December 14, 2013 by Chris</p> 
-<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p> 
-<li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-<li>Donec id elit non mi porta gravida at eget metus.</li>
-<li>Nulla vitae elit libero, a pharetra augue.</li>
-<p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p> 
-</div>
-
-</div> 
-</div>
+</html>
